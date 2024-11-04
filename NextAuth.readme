@@ -1,0 +1,26 @@
+Authentication and authorization with NextAuth using server-side session, or local, strategy
+
+1. Login with NextAuth's Built-in Endpoint
+To log in users, you can use the signIn method provided by NextAuth's React API.
+It allows you to post user credentials directly to NextAuth's built-in /api/auth/signin endpoint.
+
+
+2. Logout with NextAuth's Built-in Endpoint
+To log users out, you can use the signOut method, which logs the user out by clearing the session
+stored in MongoDB.
+See components/auth/LogoutButton.jsx
+
+
+3. Protecting Pages (Optional)
+You can protect routes/pages by checking the session state inside your components.
+
+
+4. Using Built-in Endpoints
+NextAuth provides the following built-in API endpoints that you can use for authentication flows:
+
+    /api/auth/signin: The endpoint for logging in users.
+    /api/auth/signout: The endpoint for logging out users.
+    /api/auth/session: Provides session information for the currently authenticated user.
+
+With these built-in methods, you don’t need to create custom API routes for login/logout.
+Just use the signIn and signOut functions in your client-side components.

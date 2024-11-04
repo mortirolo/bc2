@@ -1,0 +1,23 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#af8be0",
+    "activityBar.background": "#af8be0",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#975728",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#af8be0",
+    "statusBarItem.hoverBackground": "#af8be0",
+    "statusBarItem.remoteBackground": "#9363d5",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#9363d5",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#9363d599",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#9363d5",
+  "cSpell.words": [
+    "nextauth"
+  ]
+}
